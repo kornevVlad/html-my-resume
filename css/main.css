@@ -23,9 +23,35 @@ body {
 }
 
 #text {
+    float: left;
     border: 1px solid black;
     text-align: left;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 20px 35px 10px 10px;
     padding: 10px 10px 10px 10px;
+}
+
+#image {
+    float: left;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: 91px;
+    right: 30px;
+}
+
+#diplom {
+    float: left;
+    border: 1px solid black;
+    position: absolute;
+    top: 680px;
+    right: 190px;
+}
+
+#footer {
+    float: left;
+    background-color: rgb(10, 78, 137);
+    position: relative;
+    top: 50px;
+    right: 200px;
 }
